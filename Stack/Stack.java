@@ -1,4 +1,3 @@
-
 public class Stack<T> {
 
     private static int MAX_SIZE = 40;
