@@ -1,3 +1,4 @@
+import java.lang.reflect.Array;
 
 public class Queue<T> {
 
@@ -133,11 +134,8 @@ public class Queue<T> {
     }
 
     public static class QueueOverflowException extends Exception {
-        private static final long serialVersionUID = 1L;
     }
 
     public static class QueueUnderflowException extends Exception {
-
-        private static final long serialVersionUID = 1L;
     }
 }
