@@ -4,11 +4,9 @@ public class QueueBuiltWithTwoStacks<T> {
     private Stack<T> forwardStack = new Stack<>();
     private Stack<T> reverseStack = new Stack<>();
 
-
     public QueueBuiltWithTwoStacks() {
 
     }
-
     public static void main(String[] args)
             throws Queue.QueueOverflowException, Queue.QueueUnderflowException {
         QueueBuiltWithTwoStacks<Integer> queue = new QueueBuiltWithTwoStacks<Integer>();

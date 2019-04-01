@@ -1,4 +1,3 @@
-
 public class Queue<T> {
 
     private static final int SPECIAL_EMPTY_VALUE = -1;
